@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar">
+    <a href="#" class="title">Portfolio</a>
+    <div class="menu" id="menu">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contactame">Contáctame</a>
+    </div>
+    <button class="hamburger" id="hamburger">☰</button>
+</nav>
+
+<section id="sobre-mi" class="about-section hidden">
+    <div class="about-container">
+        <img src="img/logo.jpg" alt="Mi foto" class="about-photo">
+        <div class="about-content">
+            <h2 class="about-title">
+                <span id="changing-text">Sobre mí</span>
+            </h2>
+            <p class="about-description">
+                Soy un programador apasionado, especializado en tecnologías como Java, HTML. Siempre estoy aprendiendo nuevas herramientas y técnicas para mejorar mis habilidades.
+            </p>
+            <div class="about-buttons">
+                <a href="https://github.com/kevinjayo04" class="btn github-btn">
+                    <img src="img/github.png" alt="GitHub" class="btn-icon"> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-jayo-321891279/?originalSubdomain=es" class="btn linkedin-btn">
+                    <img src="img/linkedin.png" alt="LinkedIn" class="btn-icon"> LinkedIn
+                </a>
+                <a href="Curriculum.pdf" class="btn cv-btn" download>
+                    <img src="img/descarga.png" alt="Descargar" class="btn-icon"> Descargar CV
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="projects-section hidden">
+    <div class="projects-container">
+        <h2 class="projects-title">Proyectos</h2>
+        <div class="projects-content">
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card hidden">
+                    <img src="img/logo_Aplicacion.jpg" alt="Proyecto 1" class="project-image">
+                    <h3 class="project-name">Protrack</h3>
+                    <p class="project-description">
+                        Una aplicación web para gestionar tareas, creada con HTML, CSS y JavaScript.
+                    </p>
+                    <a href="https://github.com/kevinjayo04/ProTrack" target="_blank" class="btn github-btn">
+                        <img src="img/github.png" alt="GitHub" class="btn-icon"> Ver en GitHub
+                    </a>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="project-card hidden">
+                    <img src="img/psp.png" alt="Proyecto 2" class="project-image">
+                    <h3 class="project-name">Proyecto PSP</h3>
+                    <p class="project-description">
+                        Proyecto de Envio de correo electronico por medio del GMAIL de pruebas.
+                    </p>
+                    <a href="https://github.com/kevinjayo04/ProyectoEnvioCorreo" target="_blank" class="btn github-btn">
+                        <img src="img/github.png" alt="GitHub" class="btn-icon"> Ver en GitHub
+                    </a>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="project-card hidden">
+                    <img src="img/hibernate.png" alt="Proyecto 3" class="project-image">
+                    <h3 class="project-name">Proyecto Hibernate</h3>
+                    <p class="project-description">
+                        Proyecto Hibernate con el IDE de IntellJ IDEA
+                    </p>
+                    <a href="https://github.com/kevinjayo04/proyecto-Hibernate" target="_blank" class="btn github-btn">
+                        <img src="img/github.png" alt="GitHub" class="btn-icon"> Ver en GitHub
+                    </a>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="project-card hidden">
+                    <img src="img/java.png" alt="Proyecto 4" class="project-image">
+                    <h3 class="project-name">Proyecto MVC</h3>
+                    <p class="project-description">
+                        Aplicacion de Simulacion de un Concesionario de Coches. Con base de datos a MariaDB
+                    </p>
+                    <a href="https://github.com/kevinjayo04/ProyectoMVC" target="_blank" class="btn github-btn">
+                        <img src="img/github.png" alt="GitHub" class="btn-icon"> Ver en GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills-section hidden">
+    <div class="skills-container">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-content">
+            <div class="skills-grid">
+                <!-- Java -->
+                <div class="skill-card hidden">
+                    <img src="img/logojava-removebg-preview.png" alt="Java" class="skill-image">
+                    <h3 class="skill-name">Java</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                    </div>
+                </div>
+                <!-- Kotlin -->
+                <div class="skill-card hidden">
+                    <img src="img/android-removebg-preview.png" alt="Kotlin" class="skill-image">
+                    <h3 class="skill-name">Kotlin</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <!-- Spring Boot -->
+                <div class="skill-card hidden">
+                    <img src="img/spring-boot-removebg-preview.png" alt="Spring Boot" class="skill-image">
+                    <h3 class="skill-name">Spring Boot</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <!-- CSS -->
+                <div class="skill-card hidden">
+                    <img src="img/logo-css.png" alt="CSS" class="skill-image">
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                    </div>
+                </div>
+                <!-- Python -->
+                <div class="skill-card hidden">
+                    <img src="img/python-logopng-removebg-preview.png" alt="Python" class="skill-image">
+                    <h3 class="skill-name">Python</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <!-- Unity -->
+                <div class="skill-card hidden">
+                    <img src="img/Unity-Emblem-removebg-preview.png" alt="Unity" class="skill-image">
+                    <h3 class="skill-name">Unity</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+                <!-- MySQL -->
+                <div class="skill-card hidden">
+                    <img src="img/mysql-logo-removebg-preview.png" alt="MySQL" class="skill-image">
+                    <h3 class="skill-name">MySQL</h3>
+                    <div class="skill-rating">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contactame" class="contact-section hidden">
+    <div class="contact-container">
+        <h2 class="contact-title">Contáctame</h2>
+        <div class="contact-content">
+            <div class="contact-grid">
+                <!-- Tarjeta Gmail -->
+                <a href="mailto:kevinjayo04@gmail.com" class="contact-card hidden">
+                    <img src="img/logogmail.png" alt="Gmail" class="contact-icon">
+                    <h3 class="contact-name">Gmail</h3>
+                    <p class="contact-info">kevinjayo04@gmail.com</p>
+                </a>
+                <!-- Tarjeta LinkedIn -->
+                <a href="https://www.linkedin.com/in/kevin-jayo-321891279/?originalSubdomain=es" target="_blank" class="contact-card hidden">
+                    <img src="img/linkedin.png" alt="LinkedIn" class="contact-icon">
+                    <h3 class="contact-name">LinkedIn</h3>
+                    <p class="contact-info">Kevin Jayo</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="js/java.js"></script>
+</body>
+</html>
